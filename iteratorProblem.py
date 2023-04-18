@@ -18,5 +18,13 @@ class Sentence:
     
 mySentence = Sentence('hello mom how its going')
 
+mySentence2 = Sentence('hello mom how its going')
 for word in mySentence:
     print(word)
+
+print(next(mySentence2))
+print(next(mySentence2))
+print(next(mySentence2))
+print(next(mySentence2))
+print(next(mySentence2))
+print(next(mySentence2))

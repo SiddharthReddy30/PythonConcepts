@@ -1,5 +1,5 @@
 #closures
-#closure takes anything as an arguments, spits out a function based on the arguments passed, 
+#closure takes anything as an argument, spits out a function based on the arguments passed,that is generaged to server a purpose based on the arguments passed. 
 import logging     
 import math
 logging.basicConfig(filename='closure.log', level=logging.INFO)
@@ -18,6 +18,5 @@ def logger(argFunc):
 add_logger = logger(add)
 
 print(f'add_logger = {add_logger.__name__}')
-print(f'{add_logger.__closure__}')
 nums = (2,3,4)
 print(f'SUM ={add_logger(nums)}')
